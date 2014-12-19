@@ -5,10 +5,18 @@
   border: 4px solid rgb(193, 222, 216);
 }
 
+.divone{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+*{
+  font-family: 'Josefin Sans';
+}
+
 h1{
   margin: 0;
-  font-size: 100px;
-  font-family: 'Josefin Sans';
+  font-size: 70px;
   font-weight: 300;
   color: rgb(94, 83, 83);
 }
@@ -16,7 +24,6 @@ h1{
 h2{
   margin: 0;
   font-size: 50px;
-  font-family: 'Josefin Sans';
   font-weight: 100;
   color: rgb(164, 153, 172);
 }
@@ -27,5 +34,32 @@ h2{
 }
 
 .fasocial:hover{
-  color: rgb(193, 222, 216);
+  color:  rgb(164, 153, 172);
+}
+
+.projectdiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projectdiv:hover{
+  background: rgb(227, 230, 218);
+}
+
+.projects{
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+h3{
+  font-size: 40px;
+  font-weight: 300;
+  color: rgb(178, 151, 139);
+}
+
+p{
+  font-size: 20px;
 }
