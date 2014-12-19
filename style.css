@@ -1,0 +1,31 @@
+.mainimg{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 4px solid rgb(193, 222, 216);
+}
+
+h1{
+  margin: 0;
+  font-size: 100px;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  color: rgb(94, 83, 83);
+}
+
+h2{
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Josefin Sans';
+  font-weight: 100;
+  color: rgb(164, 153, 172);
+}
+
+.fasocial{
+  color: rgb(178, 151, 139);
+  margin-right: 6px;
+}
+
+.fasocial:hover{
+  color: rgb(193, 222, 216);
+}
