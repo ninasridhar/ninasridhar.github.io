@@ -72,23 +72,10 @@ a h4:link{
   font-size: 40px;
 }
 
-/* ============================================================
-  PRIMARY STRUCTURE
-============================================================ */
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
-/* ============================================================
-  SECTIONS
-============================================================ */
-/*section.module:last-child {
-  margin-bottom: 0;
-}*/
-/*section.module h2 {
-  margin-bottom: 40px;
-  font-size: 30px;
-}*/
 
 section.module p {
   margin-bottom: 40px;
@@ -103,8 +90,6 @@ section.module.content {
 }
 section.module.parallax {
   height: 400px;
-/*  width: 70%;
-  margin: 0 auto;*/
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -136,14 +121,7 @@ section.module.parallax-4 {
   section.module p {
     font-size: 20px;
   }
-/*  section.module.parallax h1 {
-    font-size: 96px;
-  }*/
 }
-/*@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }*/
-  .info{
-    margin-top: 15%;
-  }
+.info{
+  margin-top: 15%;
+}
