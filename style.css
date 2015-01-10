@@ -6,61 +6,97 @@ html, body{
   height: 100%;
 }
 
+.project-img{
+  width: 430px;
+  margin-bottom: 10px;
+}
+
+
+.intro{
+  height: 600px;
+}
+
 .mainimg{
   width: 250px;
   height: 250px;
-  margin-top: 50%;
+  margin-top: 50px;
   border-radius: 100%;
-  border: 4px solid rgb(193, 222, 216);
+  border: 4px solid rgb(103, 96, 88);
 }
 
-.divone{
-  background: rgb(94, 83, 83); 
-  height: 100%;
+.about-me{
+  background-color: rgb(103, 96, 88);
+  height: 500px;
 }
-
 
 h1{
   margin: 0;
-  margin-top: 5px;
+  font-family: 'Lobster Two';
+  margin-top: 50px;
   font-size: 70px;
   font-weight: 300;
-  color: white;
+  color: rgb(255, 100, 52);
 }
 
 h2{
   margin: 0;
   font-size: 50px;
   font-weight: 100;
-  color: rgb(164, 153, 172);
+  color: rgb(27, 162, 148);
+}
+
+p{
+  font-size: 20px;
+}
+
+.about-me-h{
+  color: white;
+  font-family: 'Lobster Two';
+}
+
+.about-me-div{
+  margin-top: 5%;
+}
+
+.about-me-p{
+  font-size: 23px;
+  margin-top: 30px;
+  color: rgb(217, 214, 197);
 }
 
 .fasocial{
-  color: rgb(178, 151, 139);
+  color: rgb(255, 100, 52);
   margin-right: 6px;
 }
 
 .fasocial:hover{
-  color:  rgb(164, 153, 172);
+  color: rgb(27, 162, 148);
 }
 
-.projectdiv{
+/*.projectdiv{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 5px;
-}
+}*/
 
 .projects{
   padding: 0;
+  padding-bottom: 100px;
   border: 1px solid black;
   border-radius: 5px;
+
 }
 
 h3{
-  font-size: 40px;
+  font-size: 35px;
+  font-family: 'Lobster Two';
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: rgb(27, 162, 148);
   font-weight: 300;
-  color: rgb(178, 151, 139);
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }
 
 ul, li{
@@ -70,6 +106,8 @@ ul, li{
 a h4:link{
   text-decoration: none;
   font-size: 40px;
+ -webkit-margin-before: 0em;
+ -webkit-margin-after: 0em;
 }
 
 .container {
@@ -77,51 +115,21 @@ a h4:link{
   margin: 0 auto;
 }
 
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-}
-section.module p:last-child {
-  margin-bottom: 0;
-}
-section.module.content {
-  padding: 40px 0;
-}
-section.module.parallax {
-  height: 400px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-section.module.parallax-1 {
-  background: rgb(94, 83, 83);
-  height: 100%;
-  width: 100%;
-  margin-left: 0;
-}
-section.module.parallax-2 {
-  background-image: url("images/project1.jpg");
-  background-size: 1000px 500px;
-}
-section.module.parallax-3 {
-  background-image: url("images/project2.jpg");
-  background-size: 1000px 500px;
-}
-section.module.parallax-4 {
-  background-image: url("images/project3.jpg");
-  background-size: 1000px 500px;
+.row{
+  margin: 0;
 }
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
+footer{
+  position: fixed;
+  width: 100%;
+  left:0px;
+  bottom:0px;
+  height: 50px;
+  background: rgb(217, 214, 197) ;
 }
-.info{
-  margin-top: 15%;
+
+.icons{
+  width: 150px;
+  margin-left: 45%;
+  padding-top: 10px;
 }
